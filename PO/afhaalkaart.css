@@ -18,21 +18,16 @@ body {
 }
 
 #inleiding {
-    width: 70%;
-	height: 100%;
+    width: 100%;
     background-color: rgb(255, 255, 255);
     padding: 5% 2% 0% 2%;
 }
 
-#rechts {
-    width: 1000px;
-    
-}
+
 
 img {
     width: 50%;
     margin-left: 25%;
-	
 }
 
 #footer {

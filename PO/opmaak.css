@@ -1,46 +1,22 @@
-body {
-    padding: 0;
-    margin: 0;   
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    color: #333;
-
+h1 { color: #ff2f14;}
+* {color:white; font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman'}
+body{
+    background-image: url('https://i.pinimg.com/originals/b5/fd/3f/b5fd3fbe984103e08b9482471484394b.gif');}
+* {text-align: center;}
+p {
+    font-size: 200% ;
 }
-
-#container {
-    margin: 2%;
-	height: 100%;
-	width: 95%;
+#lijst
+{
+color: aqua;
 }
-
-#hoofdpagina {
-    display: flex;
-    width: 100%;
+li {
+    list-style-position: inside;
 }
-
-#inleiding {
-    width: 70%;
-	height: 100%;
-    background-color: rgb(255, 255, 255);
-    padding: 5% 2% 0% 2%;
+ul {
+    text-decoration-color: blue;
 }
-
-#rechts {
-    width: 1000px;
-    
-}
-
-img {
-    width: 50%;
-    margin-left: 25%;
-	
-}
-
-#footer {
-    background-color: #333;
-    color: #DDD;
-    text-align: right;
-}
-
+/*bron: https://www.w3schools.com/html/html_links.asp*/
 #menu {
 	background: #0829CC;
 	background: linear-gradient(to bottom,  #1df063,  #0f7e18);
@@ -49,6 +25,7 @@ img {
 	padding-left: 18px;
 	border-radius: 14px;
 	border: 2px solid #000000;
+	
 }
 #menu ul, #menu li {
 	margin: 0 auto;
@@ -135,18 +112,4 @@ img {
 	#menu input:checked + label {color:white}
 	#menu input:checked + label:before {content:"\00d7"}
 	#menu input:checked ~ ul {display:block}
-}
-body{
-    background-image: url("https://th.bing.com/th/id/R.283a39511fcc07b68cf81d138c9b5fe9?rik=MCpQgi%2bxb9hSRw&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f1%2f6%2f5%2f103386.jpg&ehk=g9kDd21ynZhvFHVuBcLdS6kY%2fag0Ci%2fCUNNeLsCaS34%3d&risl=&pid=ImgRaw&r=0ndex.jpg");}
-	            /*bron: menu van menu generator in links*/
-				body {
-    font-size: 12px;
-}
-body {
-    font: normal 14
-px
-/20
-px
- Arial,Helvetica,sans-serif;
-    color: #444;
 }
