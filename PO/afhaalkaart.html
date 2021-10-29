@@ -2,13 +2,16 @@
 <html lang="nl">
     <head>
         <meta charset="utf-8">
-        <title>afhaalkaart</title>
-    
-            <link rel="stylesheet" href="afhaalkaart.css">        
+        <title>Afhaalkaart</title>
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab&display=swap" rel="stylesheet">
+        
+            <link rel="stylesheet" href="vormgeving.css">        
 
     </head>
     <body>
-       <div id="container">
+    
             <div id="menu">
                 <li><a href="index.html">Home</a></li>
 
@@ -21,16 +24,20 @@
               </ul>
             </nav>
             </div> 
-            <div id="hoofdpagina">
-                <div id="inleiding">
-                    <h1>afhaalkaart</h1>
-                    <div class="module mod-box  deepest">
-                        <details>
+
+            <div id="container" class="groot"> <!--boxmodel, wou de body aanpassen dus heb deze box een class gegeven-->
+                <div id="hoofdpagina">
+                <div id="inleiding"> 
+                    <div> <!-- div van de box voor de afhaalkaart-->
+                        <section id="content">
+                        <h1 class="title">afhaalkaart</h1>
+                    <div>  
+                        <details> <!-- details is voor een verborgen lijst, summarry is wat er kom te staan boven de verborgen lisjt, overgenomen van de website van napoli-->
                             <summary><h2>Antipasti / Voor- en bijgerechten</h2></summary>
-                            <div class="acc-content">
-                                <table style="border-width:0px;width: 100%;">
+                            <div class=>
+                                <table style="border-width:0px;width: 100%;"> <!-- hierdoor komen de prijzen links te staan-->
                                     <tbody>
-                                        <tr>
+                                        <tr> <!--propertys die bij het details property horen, dit hierboven is hetzelfde bij menukaart-->
                                             <td>
                                                 <h3>Pane e olive / Brood en olijven</h3>
                                             </td>
@@ -235,7 +242,7 @@
                         </details>
                         <details>
                             <summary><h2>Carne / Vleesgerechten</h2></summary>
-                            <div class="acc-content">
+                            <div>
                                 <table style="border-width:0px;width: 100%;">
                                     <tbody>
                                         <tr>
@@ -285,7 +292,7 @@
                         </details>
                         <details>
                             <summary><h2>Pesce / Visgerechten</h2></summary>
-                            <div class="acc-content">
+                            <div class=>
                                 <table style="border-width:0px;width: 100%;">
                                     <tbody>
                                         <tr>
@@ -323,7 +330,7 @@
                         </details>
                         <details>
                             <summary><h2>Bambini / Kindermenu</h2></summary>
-                            <div class="acc-content">
+                            <div class=>
                                 <p style="text-align: center;">Tot 12 jaar</p>
                                 <table style="border-width:0px;width: 100%;">
                                     <tbody>
@@ -353,7 +360,7 @@
                         </details>
                         <details>
                             <summary><h2>Pizza’s</h2></summary>
-                            <div class="acc-content">
+                            <div class=>
                                 <table style="border-width:0px;width: 100%;">
                                     <tbody>
                                         <tr>
@@ -770,11 +777,10 @@
 
                 </p>
                 </div>
-                    
                 </div>                
             </div> 
             <div id="footer">
-                <h6>footer</h6>
+                <h6>@2021</h6>
             </div>
         </div>
     </body>

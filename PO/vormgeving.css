@@ -1,7 +1,7 @@
 body {
     padding: 0;
     margin: 0;   
-    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
     color: #333;
 
 }
@@ -9,29 +9,34 @@ body {
 #container {
     margin: 2%;
 	height: 100%;
-	width: 95%;
+	width: 90%;
 }
 
 #hoofdpagina {
     display: flex;
     width: 100%;
+	height: 10%;
+	padding:0
 }
 
 #inleiding {
-    width: 70%;
+    width: 100%;
 	height: 100%;
     background-color: rgb(255, 255, 255);
-    padding: 5% 2% 0% 2%;
+    padding: 0% 0% 0% 2%;
 }
 
 #rechts {
     width: 1000px;
     
 }
-
+.tekst
+{
+	font-size: 200%;
+}
 img {
-    width: 50%;
-    margin-left: 25%;
+    width: 80%;
+    margin-left: 10%;
 	
 }
 
@@ -41,9 +46,9 @@ img {
     text-align: right;
 }
 
-#menu {
+#menu { /* bij menu, menu generator gebruikt, alleen de code gebruikt die ik snap*/
 	background: #0829CC;
-	background: linear-gradient(to bottom,  #1df063,  #0f7e18);
+	background: linear-gradient(to bottom,  #1df063,  #0f7e18);/*dit is de kleur, hieronder de box van het menu, daaaronder wat er gebeurt als je met je muis erover gaat*/
 	color: #FFF;
 	height: 51px;
 	padding-left: 18px;
@@ -75,11 +80,11 @@ img {
 	content: "\25BE";
 	margin-left: 5px;
 }
-#menu li a:hover {
-	color: #0099CC;
-	background: #F2F2F2;
+#menu li a:hover { 
+	color: #e7e7e7;
+	background: #278333;
 }
-#menu input {
+#menu input { /*boxen van de knoppen8*/
 	display: none;
 	margin: 0;
 	padding: 0;
@@ -95,58 +100,39 @@ img {
 	position: absolute;
 	left: 35px
 }
-#menu label:before {
-	font-size: 1.6em;
-	content: "\2261"; 
-	margin-left: 20px;
-}
-#menu ul.sub-menus{
-	height: auto;
-	overflow: hidden;
-	width: 170px;
-	background: #444444;
-	position: absolute;
-	z-index: 99;
-	display: none;
-}
-#menu ul.sub-menus li {
-	display: block;
-	width: 100%;
-}
-#menu ul.sub-menus a {
-	color: #FFFFFF;
-	font-size: 16px;
-}
-#menu li:hover ul.sub-menus {
-	display: block
-}
-#menu ul.sub-menus a:hover{
-	background: #F2F2F2;
-	color: #444444;
-}
-@media screen and (max-width: 800px){
-	#menu {position:relative}
-	#menu ul {background:#111;position:absolute;top:100%;right:0;left:0;z-index:3;height:auto;display:none}
-	#menu ul.sub-menus {width:100%;position:static;}
-	#menu ul.sub-menus a {padding-left:30px;}
-	#menu li {display:block;float:none;width:auto;}
-	#menu input, #menu label {position:absolute;top:0;left:0;display:block}
-	#menu input {z-index:4}
-	#menu input:checked + label {color:white}
-	#menu input:checked + label:before {content:"\00d7"}
-	#menu input:checked ~ ul {display:block}
-}
+
+
 body{
     background-image: url("https://th.bing.com/th/id/R.283a39511fcc07b68cf81d138c9b5fe9?rik=MCpQgi%2bxb9hSRw&riu=http%3a%2f%2fpavbca.com%2fwalldb%2foriginal%2f1%2f6%2f5%2f103386.jpg&ehk=g9kDd21ynZhvFHVuBcLdS6kY%2fag0Ci%2fCUNNeLsCaS34%3d&risl=&pid=ImgRaw&r=0ndex.jpg");}
-	            /*bron: menu van menu generator in links*/
-				body {
-    font-size: 12px;
-}
+
+				
 body {
-    font: normal 14
-px
-/20
-px
- Arial,Helvetica,sans-serif;
-    color: #444;
+	font-family: 'Zilla Slab', serif;
+}
+
+.groot
+{  
+	background-color: rgb(255, 255, 255);
+}
+
+#lijst
+{
+color: aqua;
+}
+li {
+    list-style-position: inside;
+}
+ul {
+    text-decoration-color: blue;
+}
+/*bron: https://www.w3schools.com/html/html_links.asp*/
+#about
+{
+	font-size: 200% ;
+	text-align: center;
+	color: white;
+}
+#achtergrond
+{
+	background-image: url('https://i.pinimg.com/originals/b5/fd/3f/b5fd3fbe984103e08b9482471484394b.gif');
 }
