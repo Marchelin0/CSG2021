@@ -28,6 +28,7 @@ body {
 
 #rechts {
     width: 1000px;
+	display: flex;
     
 }
 .tekst
@@ -41,9 +42,9 @@ img {
 }
 
 #footer {
-    background-color: #333;
-    color: #DDD;
-    text-align: right;
+    background-color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
+    text-align: left;
 }
 
 #menu { /* bij menu, menu generator gebruikt, alleen de code gebruikt die ik snap*/
@@ -135,4 +136,8 @@ ul {
 #achtergrond
 {
 	background-image: url('https://i.pinimg.com/originals/b5/fd/3f/b5fd3fbe984103e08b9482471484394b.gif');
+}
+.title
+{
+	font-size:250% ;
 }
